@@ -47,7 +47,7 @@ Runs for free on **Google Colab** (GPU runtime).
 
 ```
 .
-├── cat_breed_classification.ipynb   # Full pipeline: data → features → models → tuning → evaluation
+├── cat_breed_classifier.ipynb   # Full pipeline: data → features → models → tuning → evaluation
 ├── artifacts/
 │   ├── efficientnet_b0_cat_breed_final.pth   # Final trained model weights
 │   ├── model_comparison.csv                  # Macro-F1 / params / latency per model
@@ -58,7 +58,7 @@ Runs for free on **Google Colab** (GPU runtime).
 
 ## Running it
 
-1. Open `cat_breed_classification.ipynb` in Google Colab.
+1. Open `cat_breed_classifier.ipynb` in Google Colab.
 2. `Runtime → Change runtime type → GPU` (a free T4 is enough).
 3. `Runtime → Run all`. Total runtime: ~30-45 minutes, including the Optuna search.
 
