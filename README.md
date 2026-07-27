@@ -1,4 +1,4 @@
-# Cat Breed Classification
+# Cat Breed Classifier
 
 A fine-grained image classification project that identifies **12 cat breeds** from photographs, built as an end-to-end comparison of classical feature engineering, CNNs, and transfer learning (ResNet, EfficientNet, ViT), tuned with Bayesian hyperparameter optimization.
 
